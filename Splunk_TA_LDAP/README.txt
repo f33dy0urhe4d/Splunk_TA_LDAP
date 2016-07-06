@@ -70,3 +70,6 @@ or use any stanza from ldap.conf. All options that can be used:
 ### Who do I talk to? ###
 
 * Moviri SpA
+
+### Reference ###
+[https://github.com/f33dy0urhe4d/Splunk_TA_LDAP](https://github.com/f33dy0urhe4d/Splunk_TA_LDAP)
