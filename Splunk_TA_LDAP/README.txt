@@ -22,26 +22,18 @@ You can either specify options from search:
 
 
 ```
-#!Splunk
-
 | ldap server="mydomain"
 ```
 
 ```
-#!Splunk
-
 | ldap server="mydomain" ldap_filter="(objectclass=*)"
 ```
 
 ```
-#!Splunk
-
 | ldap server="mydomain" ldap_filter="(objectclass=*)" attrs="cn,mail,sn" 
 ```
 
 ```
-#!Splunk
-
 | ldap server="mydomain" basedn="dc=thisismydomain,dc=us" ldap_filter="(objectclass=*)" attrs="cn,mail,sn" 
 ```
 
@@ -65,7 +57,7 @@ or use any stanza from ldap.conf. All options that can be used:
 
 ### Log Files ###
 
-* $SPLUNK_HOME/var/log/splunk/myldap.py.log
+* $SPLUNK_HOME/var/log/splunk/mov_ldap.py.log
 
 ### Who do I talk to? ###
 

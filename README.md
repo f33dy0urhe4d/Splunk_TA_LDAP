@@ -57,7 +57,7 @@ or use any stanza from ldap.conf. All options that can be used:
 
 ### Log Files ###
 
-* $SPLUNK_HOME/var/log/splunk/myldap.py.log
+* $SPLUNK_HOME/var/log/splunk/mov_ldap.py.log
 
 ### Who do I talk to? ###
 
