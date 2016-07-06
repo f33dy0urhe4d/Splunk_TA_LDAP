@@ -22,26 +22,18 @@ You can either specify options from search:
 
 
 ```
-#!Splunk
-
 | ldap server="mydomain"
 ```
 
 ```
-#!Splunk
-
 | ldap server="mydomain" ldap_filter="(objectclass=*)"
 ```
 
 ```
-#!Splunk
-
 | ldap server="mydomain" ldap_filter="(objectclass=*)" attrs="cn,mail,sn" 
 ```
 
 ```
-#!Splunk
-
 | ldap server="mydomain" basedn="dc=thisismydomain,dc=us" ldap_filter="(objectclass=*)" attrs="cn,mail,sn" 
 ```
 
